@@ -1,3 +1,12 @@
 .main {
     text-align: center;
 }
+
+.search-container {
+    width: 500px;
+    margin: 0 auto;
+}
+
+.logo {
+    width: 60%;
+}
