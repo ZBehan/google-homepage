@@ -15,14 +15,13 @@ body, span {
 nav, footer {
     display: flex;
     justify-content: space-between;
-    padding: 1em;
 }
 
 .menu {
     display: flex;
     align-items: center;
     margin: 0;
-    padding: 0;
+    padding: 16px;
     list-style: none;
 }
 
@@ -148,6 +147,7 @@ input[type=submit]:hover {
 
 footer {
     margin-top: auto;
+    flex-wrap: wrap;
     background: #f2f2f2;
     border-top: 1px solid #e4e4e4;
 }
@@ -158,4 +158,10 @@ footer .menu-item {
 
 footer .menu-item a {
     color: #5f6368;
+}
+
+@media screen and (max-width: 1024px) {
+    footer {
+        justify-content: space-evenly;
+    }
 }
