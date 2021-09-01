@@ -60,15 +60,20 @@ nav, footer {
     margin: 0;
 }
 
+.menu-icon:hover {
+    background:rgba(60,64,67,0.08);
+    border-radius: 100%;
+}
+
 .menu-icon a {
     padding: 8px;
     margin: 0;
     line-height: 0;
+    color: rgb(100, 100, 100);
 }
 
-.menu-icon:hover {
-    background:rgba(60,64,67,0.08);
-    border-radius: 100%;
+.menu-icon a:hover {
+    color:#222;
 }
 
 .menu-button a {
