@@ -107,7 +107,7 @@ form {
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding: 10px;
+    padding: 0 10px;
     border-radius: 24px;
     border: 1px solid #dfe1e5;
 }
@@ -119,10 +119,17 @@ form {
 
 .search-icon {
     line-height: 0;
+    color: #9AA0A6;
+    margin: 0 14px 0 6px;
+}
+
+.search-icon span {
+    font-size: 20px;
 }
 
 .search-input {
     width: 100%;
+    margin-right: 14px;
 }
 
 input {
@@ -133,6 +140,8 @@ input {
 input[type=text] {
     width: 100%;
     border: none;
+    line-height: 40px;
+    font-size: 16px;
 }
 
 input[type=text]:focus {
