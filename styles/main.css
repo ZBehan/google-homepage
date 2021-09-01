@@ -25,6 +25,14 @@ nav, footer {
     list-style: none;
 }
 
+.menu-item:first-child {
+    margin-left: 0;
+}
+
+.menu-item:last-child {
+    margin-right: 0;
+}
+
 .menu-item {
     margin: 0 10px;
 }
