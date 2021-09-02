@@ -130,7 +130,7 @@ form {
     border: 1px solid #dfe1e5;
 }
 
-.search-container:hover {
+.search-container:hover, .search-container:focus-within {
     box-shadow: 0px 1px 6px rgb(32, 33, 36,.28);
     border: 1px solid #fff;
 }
