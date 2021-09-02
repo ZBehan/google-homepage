@@ -1,8 +1,14 @@
+# Assignment: Google search page
+
 This is my first project following The Odin Project (www.theodinproject.com).
+
+## Objective
 
 The assignment is to create a webpage that looks like the Google search homepage (www.google.com) using only HTML and CSS.
 
-HTML elements that have been used include: div, nav, footer, form, input
+## What did I learn?
+
+HTML elements that have been used include: div, nav, footer, form, input, classes
 
 CSS used includes: classes, flexbox, :hover, box-shadow, :first-child,:last-child
 
