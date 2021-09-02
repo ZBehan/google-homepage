@@ -25,16 +25,16 @@ nav, footer {
     list-style: none;
 }
 
-.menu-item:first-child {
+.menu-item {
+    margin: 0 10px;
+}
+
+.menu-item:first-child { /* Removes end margins to help prevent scrollbar on small screen sizes */
     margin-left: 0;
 }
 
 .menu-item:last-child {
     margin-right: 0;
-}
-
-.menu-item {
-    margin: 0 10px;
 }
 
 .menu-item a {
