@@ -56,15 +56,6 @@ appearing on small screen sizes */
     text-decoration: underline;
 }
 
-.menu-button {
-    border-radius: 4px;
-    background: #4285f4;
-}
-
-.menu-button:hover {
-    box-shadow: 0px 1px 2px 0px #4285f4;
-}
-
 .menu-icon {
     margin: 0;
 }
@@ -83,6 +74,16 @@ appearing on small screen sizes */
 
 .menu-icon a:hover {
     color:#222;
+}
+
+.menu-button {
+    border-radius: 4px;
+    background: #1a73e8;
+}
+
+.menu-button:hover {
+    background: #2b7de9;
+    box-shadow: 0px 1px 2px 0px #4285f4;
 }
 
 .menu-button a {
