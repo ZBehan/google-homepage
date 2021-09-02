@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Google</title>
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
     <!-- Link to the Material icons font. Required to get the apps and magnifier icons -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!-- Link to the pages own stylesheet -->
@@ -13,11 +14,14 @@
 </head>
 
 <body>
-    
-    <div class="container"><!-- A container for everything in the webpage -->
-        
-        <nav><!-- Start of the top navigation section -->
-            <ul class="menu"><!-- There are different ways to separate the menus to each side, I created two menu lists and used flexbox CSS to separate them -->
+
+    <div class="container">
+        <!-- A container for everything in the webpage -->
+
+        <nav>
+            <!-- Start of the top navigation section -->
+            <ul class="menu">
+                <!-- There are different ways to separate the menus to each side, I created two menu lists and used flexbox CSS to separate them -->
                 <li class="menu-item"><a href="#">About</a></li>
                 <li class="menu-item"><a href="#">Store</a></li>
             </ul>
@@ -32,13 +36,16 @@
                 <li class="menu-item menu-button"><a href="#">Sign In</a></li>
             </ul>
         </nav><!-- End top navigation section -->
-        <div class="main"><!-- Section to hold the logo and search form -->
+        <div class="main">
+            <!-- Section to hold the logo and search form -->
             <div class="row">
                 <img class="logo" src="images/googlelogo_color_272x92dp.png" alt="Google logo">
             </div>
-            <form action="" method="get"><!-- For the form to work, it needs to wrap around these rows to include the search input text field and buttons -->
+            <form action="" method="get">
+                <!-- For the form to work, it needs to wrap around these rows to include the search input text field and buttons -->
                 <div class="row">
-                    <div class="search-container"><!-- This will make the rounded rectangle encompass the icon and input field -->
+                    <div class="search-container">
+                        <!-- This will make the rounded rectangle encompass the icon and input field -->
                         <div class="search-icon">
                             <span class="material-icons">search</span><!-- Display the magnifier/search icon -->
                         </div>
@@ -53,7 +60,8 @@
                 </div>
             </form><!-- End the search form -->
         </div><!-- End of main section -->
-        <footer><!-- Start of bottom navigation, same technique as the top menu -->
+        <footer>
+            <!-- Start of bottom navigation, same technique as the top menu -->
             <ul class="menu">
                 <li class="menu-item"><a href="#">Advertising</a></li>
                 <li class="menu-item"><a href="#">Business</a></li>
