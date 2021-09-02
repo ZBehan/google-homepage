@@ -5,21 +5,28 @@ body, span {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.container {
+/* Using this combination will always mean the first 
+child element is displayed at the top of the page, 
+and the last child element is at the bottom*/
+.container { 
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     height: 100vh;
 }
 
+/* Similar technique to above */
 nav, footer {
     display: flex;
     justify-content: space-between;
 }
 
+/***********
+Menu, used in nav and footer
+************/
 .menu {
     display: flex;
-    align-items: center;
+    align-items: center; /* Vertically center the child elements */
     margin: 0;
     padding: 16px;
     list-style: none;
@@ -29,7 +36,9 @@ nav, footer {
     margin: 0 10px;
 }
 
-.menu-item:first-child { /* Removes end margins to help prevent scrollbar on small screen sizes */
+/* Removes end margins to help prevent scrollbar
+appearing on small screen sizes */
+.menu-item:first-child { 
     margin-left: 0;
 }
 
@@ -86,6 +95,9 @@ nav, footer {
     text-decoration: none;
 }
 
+/***********
+Main, used for logo and inputs
+************/
 .main {
     display: flex;
     flex-direction: column;
@@ -167,9 +179,11 @@ input[type=submit]:hover {
     border: 1px solid #c6c6c6;
 }
 
+/***********
+Footer, used for specific footer styles
+************/
 footer {
-    margin-top: auto;
-    flex-wrap: wrap;
+    flex-wrap: wrap; /* This makes the two child menus stack on top of each other */
     background: #f2f2f2;
     border-top: 1px solid #e4e4e4;
 }
@@ -182,6 +196,9 @@ footer .menu-item a {
     color: #5f6368;
 }
 
+/* Make the footer a bit more responsive on 
+smaller screens to help prevent the horizontal
+scrollbar */
 @media screen and (max-width: 1024px) {
     footer {
         justify-content: space-evenly;
